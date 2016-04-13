@@ -1,0 +1,119 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\title{Title page with logo}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{color}
+\usepackage[numbered, framed]{mcode}
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+
+\begin{document}
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE NTNU}\\[1.5cm] % Name of your university/college
+\textsc{\Large HSL3800}\\[0.5cm] % Major heading such as course name
+\textsc{\large Helsefremmende bomiljø og byutvikling}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Prosessrapport}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Group members:}\\
+Karoline \textsc{Kroken} \\ % Your name
+Ole Vebjørn \textsc{H. Bakken}\\ % Your name
+Iselin \textsc{Kanstad}\\ %Your name
+Mads J. \textsc{Laastad} \\%Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Student number:}\\
+741331\\
+765379\\
+729817\\
+729546\\
+\end{flushright}
+\end{minipage}\\[4cm]
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+{\large \today}\\[2cm] % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+\includegraphics[height=10mm]{ntnu-logo.jpg}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+\newpage
+\clearpage
+\newpage
+\textit{This page is intentionally left blank.}
+\clearpage
+\tableofcontents
+\clearpage
+
+%----------------------------------------------------------------------------------------
+
+
+\input{2_Oppsummering.tex}
+
+
+%----------------------------------------------------------------------------------------
+
+\input{3_Innledning.tex}
+
+%----------------------------------------------------------------------------------------
+
+\input{4_Hoveddel.tex}
+
+
+%----------------------------------------------------------------------------------------
+
+\input{5_Avslutning.tex}
+
+
+%----------------------------------------------------------------------------------------
+
+\input{6_Vedlegg.tex}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
